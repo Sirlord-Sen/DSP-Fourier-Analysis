@@ -56,7 +56,7 @@ ax[0].set_ylabel('Amplitude')
 ax[0].set_title('Time domain')
 ax[0].set_xlim(time[[0,-1]])
 
-ax[1].plot(hz,ampl,'s-')
+ax[1].stem(hz,ampl,'s-')
 ax[1].set_xlabel('Frequency (Hz)')
 ax[1].set_ylabel('Amplitude')
 ax[1].set_title('Frequency domain')
